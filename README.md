@@ -32,7 +32,7 @@ Or install it yourself as:
     #Height of images
     height = 300 
     
-    Picsum::Base.generate number_pictures , width , height
+    Picsum::Base.download number_pictures , width , height
     
 ```
 
@@ -42,7 +42,7 @@ You can use default params :
 ```ruby
     
     #This line will download 5 random pictures (500x500)
-    Picsum::Base.generate
+    Picsum::Base.download
     
 ```
 
