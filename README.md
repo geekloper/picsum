@@ -20,7 +20,32 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+```ruby
+    
+    #Number of pictures to download
+    number_pictures = 5
+   
+    #Width of images
+    width = 200
+    
+    #Height of images
+    height = 300 
+    
+    Picsum::Base.generate number_pictures , width , height
+    
+```
+
+You can use default params : 
+
+
+```ruby
+    
+    #This line will download 5 random pictures (500x500)
+    Picsum::Base.generate
+    
+```
+
 
 ## Development
 
