@@ -1,6 +1,6 @@
 # Picsum
 
-Picsum is simple gem for downloading random images. This gem is build on top of https://picsum.photos/
+Picsum is simple gem for downloading random pictures. This gem is build on top of https://picsum.photos/
 
 ## Installation
 
@@ -26,10 +26,10 @@ Or install it yourself as:
     #Number of pictures to download
     number_pictures = 5
    
-    #Width of images
+    #Width of pictures
     width = 200
     
-    #Height of images
+    #Height of pictures
     height = 300 
     
     Picsum::Base.download number_pictures , width , height
