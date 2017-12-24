@@ -6,7 +6,7 @@ module Picsum
   
   class Base
     
-    def self.generate ( number_pictures = 5 , width = 500 , height = 500)
+    def self.download ( number_pictures = 5 , width = 500 , height = 500)
       
       for i in 0...number_pictures
 
